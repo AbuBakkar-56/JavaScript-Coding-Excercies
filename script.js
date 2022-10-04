@@ -398,7 +398,7 @@ function sandwich(param){
         console.log(`You have ordred a sandwich that includes `+`${param[0]} ${param[1]} ${param[2]}`)
     }
 };
-sandwich();
+sandwich(sandwichItems);
 
 //Ex-45
 function car(manufacturer,modelname,color='',milage=``){
